@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-## About Me:
+## About me:
 
-Hi! I'm **Giovanni Pegoraro**, a student from the **Vicenza area in Italy**. I've studied **Electronics and Automation** in High School and I plan to continue this path next year at the **Polytechnic University of Milan**. Ever since I was a child who played with Legos, I enjoyed the process of creating things. Giving life to new ideas has always fascinated me and that is why I decided to study Engineering.
-
-I'm especially keen to **robotics** because it's at the intersection of many different subjects and I hope to be able to work in that field one day.
+Hi! Inside this utterly self-centric piece of the Internet you'll have the opportunity to to learn about the rather boring topic which is myself.
 
 ---
 
@@ -13,27 +11,21 @@ I'm especially keen to **robotics** because it's at the intersection of many dif
 
 <h3 style="margin-bottom:2px;">PoliSpace</h3>
 <h4 style="margin:0;">ROS2 Developer</h4>
-2024 - Present\
-Working on robotics projects using ROS2 framework
-
-<h3 style="margin-bottom:2px;">Freelance Projects</h3>
-<h4 style="margin:0;">Automation & Robotics Consultant</h4>
-2023 - Present\
-Developing custom automation solutions and robotics applications
+*2024 - Present*\
+Working on the control of the main powertrain using ros2_control
 
 ---
 
 ## Education:
 
-<h3 style="margin-bottom:2px;">Electronics and Automation</h3>
-<h4 style="margin:0;">High School Diploma</h4>
-2019 - 2024\
-Focus on Electronics, Automation, and Engineering fundamentals
+<h3 style="margin-bottom:2px;">Polytechnic University of Milan</h3>
+<h4 style="margin:0;">Computer Eng. BSc</h4>
+*2024 - Present*
 
-<h3 style="margin-bottom:2px;">Future Studies</h3>
-<h4 style="margin:0;">Polytechnic University of Milan</h4>
-Starting 2024\
-Planning to continue in Engineering field
+<h3 style="margin-bottom:2px;">ITT Chilesotti</h3>
+<h4 style="margin:0;">High School Diploma</h4>
+*2019 - 2024*\
+Electronics and Automation. Grade: 100L/100
 
 ---
 
