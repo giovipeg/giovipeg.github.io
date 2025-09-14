@@ -7,97 +7,73 @@ permalink: /projects
 ## Projects:
 
 <div class="card">
-  <h3>Logfire-cli</h3>
-  <p><b>Go</b></p>
+  <h3>Pallet Design Software</h3>
+  <p><b>FreeCAD, Python</b></p>
   <ul>
-    <li>A fully interactive command line interface to access logs streaming and other features directly from terminal.</li>
-    <li>Used factory pattern to analyze which type of terminal the cli is running on based on that enabled or disabled interactive features.</li>
-    <li>Added scoop and brew installation pacakges.</li>
+    <li>FreeCAD-based software to automate the design of wooden pallets and crates for a local company.</li>
+    <li>Allows users to customize automatically generated 3D models by entering specifications.</li>
+    <li>Automatically generates related 2D drawings from 3D models.</li>
+    <li>Addresses the time-consuming process of creating CAD models for small batch custom products.</li>
   </ul>
-  <a href="https://github.com/logfire-ai/cli"><span class="card-link-spanner"></span></a>
+  <a href="https://youtu.be/LKLaM5EWL10"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
-  <h3>Housing Price Prediction</h3>
-  <p><b>Python and Machine Learning</b></p>
+  <h3>RoboCup Robot</h3>
+  <p><b>Python, Computer Vision, Raspberry Pi, Arduino</b></p>
   <ul>
-    <li>A machine learning project based on Kaggle Housing Price Prediction competition using XGBoost. Got a score of 14997.</li>
-    <li>The project has all the steps including Preprocessing which fixes missing data and categorical data, and Pipeline which streamlines the process in a single step from fitting and predicting the data.</li>
+    <li>Fourth iteration of a competition robot for RoboCup with complete mechanical design and coding responsibilities.</li>
+    <li>Developed ML object detection program to find balls using computer vision.</li>
+    <li>Co-developed line following software for autonomous navigation.</li>
+    <li>Complete development from scratch including team organization and project management.</li>
   </ul>
-  <a href="https://vaibhavvikas.github.io/housing-price-predictor/"><span class="card-link-spanner"></span></a>
+  <a href="https://youtu.be/IufXKFwEPM0"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
-  <h3>Distributed Cloud (KLA+ Hackathon'20)</h3>
-  <p><b>Python and Flask</b></p>
+  <h3>Omron Smart Project</h3>
+  <p><b>HMI Development, Industrial Systems, PLC Programming</b></p>
   <ul>
-    <li>A distributed cloud storage like google drive using Flask, where user can store and retrieve any files.</li>
-    <li>All files are chunked based on the json provided and stored in servers with load balancing.</li>
-    <li>End to End Encryption on chunks to provide extra security.</li>
+    <li>Part of school team developing software and HMI for industrial-like assembly line.</li>
+    <li>Created graphical interface for small industrial assembly line system.</li>
+    <li>Project represents school in Omron Smart Project cup competition.</li>
+    <li>Simulation demonstrates complete HMI functionality for industrial automation.</li>
   </ul>
-  <a href="https://vaibhavvikas.github.io/distributed-cloud"><span class="card-link-spanner"></span></a>
+  <a href="https://youtu.be/6z8PNtMnOD4"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
-  <h3>URL Shortner</h3>
-  <p><b>Python and Flask</b></p>
+  <h3>rotateCam</h3>
+  <p><b>3D Printing, Telegram Bot, Arduino, Webcam Control</b></p>
   <ul>
-    <li>A Python application built using Flask, which shortens the URL.</li>
-    <li>Implemented APIs for user registration and shorten the URL either by registered user or Anonymous.</li>
-    <li>Built the application using OOPs concepts and also implemented appropriate exception handling and CI/CD.</li>
+    <li>3D printed stand for USB webcams controlled with Telegram bot for remote tilting.</li>
+    <li>Developed during pandemic to help teachers adjust camera angles remotely during online lessons.</li>
+    <li>Integrated hardware and software solutions for practical problem-solving.</li>
+    <li>Demonstrates rapid prototyping and practical application of technology.</li>
   </ul>
-  <a href="https://vaibhavvikas.github.io/url-shortner"><span class="card-link-spanner"></span></a>
+  <a href="https://github.com/gpego"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
-  <h3>Mystery Maze (Live Event, Version'19)</h3>
-  <p><b>Unity, AR and Android</b></p>
+  <h3>gpego.github.io</h3>
+  <p><b>HTML, CSS, JavaScript, Web Development</b></p>
   <ul>
-    <li>An augmented reality treasure hunt game which gives a clue to the person on scanning specific image targets.</li>
-    <li>The application has 3D Maps using Mapbox and AR using Vuforia engine.</li>
+    <li>Personal website showcasing projects and professional information.</li>
+    <li>Responsive design with custom styling and interactive elements.</li>
+    <li>Web development exercise demonstrating front-end skills.</li>
+    <li>Clean, modern interface with project portfolio presentation.</li>
   </ul>
-  <a href="https://vaibhavvikas.github.io/mystery-maze"><span class="card-link-spanner"></span></a>
+  <a href="https://github.com/gpego/gpego.github.io"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
-  <h3>Food Web</h3>
-  <p><b>Python, Flask, Tkinter and Angular</b></p>
+  <h3>Printables Profile</h3>
+  <p><b>3D Modeling, 3D Printing, Design</b></p>
   <ul>
-    <li>A GUI based application to monitor the species in an ecosystem such as a forest or river etc.</li>
-    <li>It shows all the species along with their predators and prey in visual format as graph.</li>
-    <li>In case of Disasters such as forest fires, we can register deaths of certain species which in tell which species are getting affected.</li>
+    <li>Casual publication of 3D models on Prusa's Printables platform.</li>
+    <li>Highly specific pieces designed for practical applications.</li>
+    <li>Demonstrates 3D design and printing capabilities.</li>
+    <li>Focus on functional rather than decorative designs.</li>
   </ul>
-  <a href="https://vaibhavvikas.github.io/food-web"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
-  <h3>Covid-19 Chatbot</h3>
-  <p><b>Python, React and RASA</b></p>
-  <ul>
-    <li>A GUI based application to respond to various queries by users regarding Covid-19.</li>
-    <li>The application is built using RASA framework, which is built using Keras and trains the model based on various user stories.</li>
-    <li>The Chatbot GUI is built using React, where user interacts and type their questions and get queries. The application also shows realtime count of infected people in a particular state or country.</li>
-  </ul>
-  <a href="https://vaibhavvikas.github.io/covid19chatbot"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
-  <h3>Choppy Copter (Live Event, Version'19)</h3>
-  <p><b>Java, libgdx and Android</b></p>
-  <ul>
-    <li>A Java game built using libgdx, where user need to fly the copter preventing it from hitting the obstacles.</li>
-    <li>The application has realtime score tracking, where the user's high score are updated to database.</li>
-  </ul>
-  <a href="https://vaibhavvikas.github.io/choppy-copter"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
-  <h3>Snakes & Ladders (Machine Coding)</h3>
-  <p><b>Python</b></p>
-  <ul>
-    <li>A Snakes and Ladders game built using python, using various OOAD principles.</li>
-    <li>The application takes input from the user with various options such as number of snakes, ladders, different types of dice etc.</li>
-    <li>Also added unit testing to some of the methods.</li>
-  </ul>
-  <a href="https://vaibhavvikas.github.io/snake-ladder"><span class="card-link-spanner"></span></a>
+  <a href="https://www.printables.com/@gi0v1_05_82000"><span class="card-link-spanner"></span></a>
 </div>

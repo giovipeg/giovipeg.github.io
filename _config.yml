@@ -1,14 +1,12 @@
-title: Vaibhav Vikas
-logo: /assets/img/logo.webp
-email: vbhvvikas@gmail.com
-description: SDE @ Open. Python Developer. Machine Learning.
+title: Giovanni Pegoraro
+logo: /assets/img/logo.jpg
+email: giovipegoraro@gmail.com
+description: Computer Eng. BSc @ PoliMi. ROS2 dev @ PoliSpace.
 favicon: true
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: light
 
-google_analytics: G-0RXV630V8X
-
-url: "https://vaibhavvikas.github.io/"
+url: "https://giovipeg.github.io/"
 
 plugins:
   - jekyll-seo-tag
@@ -19,16 +17,13 @@ plugins:
 platforms:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/vaibhavvikas
+    link: https://github.com/giovipeg
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/vaibhavvikas
+    link: https://www.linkedin.com/in/giovanni-pegoraro
   - name: Projects
     icon: <i class="fa-solid fa-file-code"></i>
     link: ./projects
-  - name: Certifications
-    icon: <i class="fa-solid fa-award"></i>
-    link: ./certifications
-  - name: Open Source
-    icon: <i class="fa-solid fa-ghost"></i>
-    link: ./open-source
+  - name: CV
+    icon: <i class="fa-solid fa-file-pdf"></i>
+    link: ./cv
