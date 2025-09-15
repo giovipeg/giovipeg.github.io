@@ -3,7 +3,7 @@ layout: default
 ---
 ## About me:
 
-Hi! Inside this utterly self-centric piece of the Internet you'll have the opportunity to to learn about the rather boring topic which is myself.
+Hi! Inside this utterly self-centric piece of the Internet you'll have the opportunity to learn about the rather boring topic which is myself.
 
 ---
 
@@ -32,47 +32,32 @@ Electronics and Automation. Grade: 100L/100
 ## Projects:
 
 <div class="card">
+  <h3>Gino</h3>
+  <p><b>LeRobot add-on</b></p>
+  <ul>
+    <li>Software for SO-100(1) robot arm teleop.</li>
+    <li>Minimal setup, no leader arm required.</li>
+  </ul>
+  <a href="/projects/gino"><span class="card-link-spanner"></span></a>
+</div>
+
+<div class="card">
+  <h3>Kairos</h3>
+  <p><b>ERC rover</b></p>
+  <ul>
+    <li>Part of the University team developing a rover for ERC.</li>
+  </ul>
+  <a href="/projects/kairos"><span class="card-link-spanner"></span></a>
+</div>
+
+<div class="card">
   <h3>Pallet Design Software</h3>
-  <p><b>FreeCAD, Python</b></p>
+  <p><b>Office software</b></p>
   <ul>
-    <li>FreeCAD-based software to automate the design of wooden pallets and crates for a local company.</li>
-    <li>Allows users to customize automatically generated 3D models by entering specifications.</li>
-    <li>Automatically generates related 2D drawings from 3D models.</li>
+    <li>FreeCAD-based software to automate the design of wooden pallets and crates.</li>
+    <li>Addresses the time-consuming process of creating CAD models for small batch custom products.</li>
   </ul>
-  <a href="https://youtu.be/LKLaM5EWL10"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
-  <h3>RoboCup Robot</h3>
-  <p><b>Python, Computer Vision, Raspberry Pi</b></p>
-  <ul>
-    <li>Fourth iteration of a competition robot for RoboCup with mechanical design and coding responsibilities.</li>
-    <li>Developed ML object detection program to find balls and co-developed line following software.</li>
-    <li>Complete development from scratch including team organization and project management.</li>
-  </ul>
-  <a href="https://youtu.be/IufXKFwEPM0"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
-  <h3>Omron Smart Project</h3>
-  <p><b>HMI Development, Industrial Systems</b></p>
-  <ul>
-    <li>Part of school team developing software and HMI for industrial-like assembly line.</li>
-    <li>Created graphical interface for small industrial assembly line system.</li>
-    <li>Project represents school in Omron Smart Project cup competition.</li>
-  </ul>
-  <a href="https://youtu.be/6z8PNtMnOD4"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
-  <h3>rotateCam</h3>
-  <p><b>3D Printing, Telegram Bot, Arduino</b></p>
-  <ul>
-    <li>3D printed stand for USB webcams controlled with Telegram bot for remote tilting.</li>
-    <li>Developed during pandemic to help teachers adjust camera angles remotely during online lessons.</li>
-    <li>Integrated hardware and software solutions for practical problem-solving.</li>
-  </ul>
-  <a href="https://github.com/gpego"><span class="card-link-spanner"></span></a>
+  <a href="/projects/pallet-design-software"><span class="card-link-spanner"></span></a>
 </div>
 
 [... See all projects](./projects)
