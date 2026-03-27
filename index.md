@@ -17,8 +17,8 @@ Head of the group working on the LeRobot project within Polimi's robotics associ
 <h3 style="margin-bottom:2px;">PoliSpace</h3>
 <h4 style="margin:0;">ROS2 Developer</h4>
 *2024 - Present*\
-- Developed a differential drive system for the main powertrain of our [rover](/projects/kairos)
-- Implemented a control system for the robot arm
+Developed a differential drive system for the main powertrain of our [rover](/projects/kairos)\
+Implemented a control system for the robot arm
 
 ---
 
