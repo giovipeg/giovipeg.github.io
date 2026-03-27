@@ -9,6 +9,11 @@ Hi! Inside this utterly self-centric piece of the Internet you'll have the oppor
 
 ## Experience:
 
+<h3 style="margin-bottom:2px;">AEA (Automation Eng. Association)</h3>
+<h4 style="margin:0;">PM</h4>
+*2025 - Present*\
+Head of the group working on the LeRobot project within Polimi's robotics association.
+
 <h3 style="margin-bottom:2px;">PoliSpace</h3>
 <h4 style="margin:0;">ROS2 Developer</h4>
 *2024 - Present*\
