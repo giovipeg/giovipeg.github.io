@@ -48,12 +48,12 @@ Electronics and Automation. Grade: 100L/100
 </div>
 
 <div class="card">
-  <h3>Kairos</h3>
-  <p><b>ERC rover</b></p>
+  <h3>LeRobot @ AEA</h3>
+  <p><b>HuggingFace born AEA project</b></p>
   <ul>
-    <li>Part of the University team developing a rover for ERC.</li>
+    <li>Head of the team working on the LeRobot project withing PoliMi's robotics club.</li>
   </ul>
-  <a href="/projects/kairos"><span class="card-link-spanner"></span></a>
+  <a href="/projects/lerobot"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
