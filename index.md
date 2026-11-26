@@ -10,6 +10,11 @@ Hi! Inside this utterly self-centric piece of the Internet you'll have the oppor
 ## Experience:
 
 <div class="card">
+  <h3>TalOS Robotics</h3>
+  <p><b>Intern</b></p>
+</div>
+
+<div class="card">
   <h3>AEA (Automation Eng. Association)</h3>
   <p><b>PM</b></p>
   <p><i>2025 - Present</i></p>

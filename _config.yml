@@ -1,7 +1,7 @@
 title: Giovanni Pegoraro
 logo: /assets/img/logo.jpg
 email: giovipegoraro@gmail.com
-description: Computer Eng. BSc @ PoliMi. ROS2 dev @ PoliSpace.
+description: Computer Eng. BSc @ PoliMi. Intern @ TalOS Robotics.
 favicon: true
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: light
@@ -25,6 +25,3 @@ platforms:
   - name: Personal projects
     icon: <i class="fa-solid fa-file-code"></i>
     link: ./projects
-  - name: CV
-    icon: <i class="fa-solid fa-file-pdf"></i>
-    link: ./cv
