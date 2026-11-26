@@ -9,16 +9,26 @@ Hi! Inside this utterly self-centric piece of the Internet you'll have the oppor
 
 ## Experience:
 
-<h3 style="margin-bottom:2px;">AEA (Automation Eng. Association)</h3>
-<h4 style="margin:0;">PM</h4>
-*2025 - Present*\
-Head of the group working on the LeRobot project within Polimi's robotics association.
+<div class="card">
+  <h3>AEA (Automation Eng. Association)</h3>
+  <p><b>PM</b></p>
+  <p><i>2025 - Present</i></p>
+  <ul>
+    <li>Head of the group working on the LeRobot project within Polimi's robotics association.</li>
+  </ul>
+  <a href="/experience/lerobot"><span class="card-link-spanner"></span></a>
+</div>
 
-<h3 style="margin-bottom:2px;">PoliSpace</h3>
-<h4 style="margin:0;">ROS2 Developer</h4>
-*2024 - Present*\
-Developed a differential drive system for the main powertrain of our [rover](/projects/kairos).\
-Implemented a control system for the robot arm.
+<div class="card">
+  <h3>PoliSpace</h3>
+  <p><b>ROS2 Developer</b></p>
+  <p><i>2024 - Present</i></p>
+  <ul>
+    <li>Developed a differential drive system for the main powertrain of our rover.</li>
+    <li>Implemented a control system for the robot arm.</li>
+  </ul>
+  <a href="/experience/kairos"><span class="card-link-spanner"></span></a>
+</div>
 
 ---
 
@@ -35,7 +45,7 @@ Electronics and Automation. Grade: 100L/100
 
 ---
 
-## Projects:
+## Personal projects:
 
 <div class="card">
   <h3>Gino</h3>
@@ -48,15 +58,6 @@ Electronics and Automation. Grade: 100L/100
 </div>
 
 <div class="card">
-  <h3>LeRobot @ AEA</h3>
-  <p><b>HuggingFace born AEA project</b></p>
-  <ul>
-    <li>Head of the team working on the LeRobot project withing PoliMi's robotics club.</li>
-  </ul>
-  <a href="/projects/lerobot"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
   <h3>Pallet Design Software</h3>
   <p><b>Office software</b></p>
   <ul>
@@ -66,5 +67,5 @@ Electronics and Automation. Grade: 100L/100
   <a href="/projects/pallet-design-software"><span class="card-link-spanner"></span></a>
 </div>
 
-[... See all projects](./projects)
+[... See all personal projects](./projects)
 

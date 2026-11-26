@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{%- comment -%}
+  Shared layout for project and experience pages.
+  Order: breadcrumb, title, image/video, recruiter summary, extended description.
+
+  Front matter:
+    title             page title, also used in the breadcrumb
+    section           "experience" or "projects" (default) - picks the breadcrumb parent
+    youtube           YouTube video id (starts automatically, muted; its thumbnail covers
+                      the player until it is playing - see assets/js/project-video.js)
+    youtube_vertical  true for portrait videos (Shorts): the summary sits beside the video
+    image, image_alt  picture to show when there is no video
+    description       the short summary recruiters read (Markdown allowed)
+  The page body is the extended description.
+{%- endcomment -%}
+{%- if page.section == "experience" -%}
+  {%- assign parent_name = "Experience" -%}
+  {%- assign parent_url = "/#experience" -%}
+{%- else -%}
+  {%- assign parent_name = "Personal projects" -%}
+  {%- assign parent_url = "/projects" -%}
+{%- endif %}
+<p><strong><a href="/">Home</a> &raquo; <a href="{{ parent_url }}">{{ parent_name }}</a> &raquo; {{ page.title }}</strong></p>
+
+<h2>{{ page.title }}</h2>
+
+<div class="project-lead{% if page.youtube and page.youtube_vertical %} project-lead-vertical{% endif %}">
+  {%- if page.youtube %}
+  <div class="project-media project-video" data-youtube="{{ page.youtube }}"{% if page.youtube_vertical %} data-vertical{% endif %}>
+    <iframe src="https://www.youtube.com/embed/{{ page.youtube }}?autoplay=1&amp;mute=1&amp;playsinline=1&amp;enablejsapi=1" title="{{ page.title }} video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <button type="button" class="video-poster" aria-label="Play video" style="background-image: url('https://i.ytimg.com/vi/{{ page.youtube }}/hqdefault.jpg');"><span class="video-poster-play"></span></button>
+  </div>
+  {%- elsif page.image %}
+  <div class="project-media">
+    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}">
+  </div>
+  {%- endif %}
+  {%- if page.description %}
+  <div class="project-summary">
+    {{ page.description | markdownify }}
+  </div>
+  {%- endif %}
+</div>
+
+{{ content }}
+{%- if page.youtube %}
+
+<script src="{{ "/assets/js/project-video.js?v=" | append: site.github.build_revision | relative_url }}"></script>
+{%- endif %}

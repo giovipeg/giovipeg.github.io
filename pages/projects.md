@@ -2,9 +2,9 @@
 layout: default
 permalink: /projects
 ---
-**[Home](/) >> Projects**
+**[Home](/) >> Personal projects**
 
-## Projects:
+## Personal projects:
 
 <div class="card">
   <h3>Gino</h3>
@@ -14,24 +14,6 @@ permalink: /projects
     <li>Minimal setup, no leader arm required.</li>
   </ul>
   <a href="/projects/gino"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
-  <h3>LeRobot @ AEA</h3>
-  <p><b>HuggingFace born AEA project</b></p>
-  <ul>
-    <li>Head of the team working on the LeRobot project withing PoliMi's robotics club.</li>
-  </ul>
-  <a href="/projects/lerobot"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
-  <h3>Kairos</h3>
-  <p><b>ERC rover</b></p>
-  <ul>
-    <li>Part of the University team developing a rover for ERC.</li>
-  </ul>
-  <a href="/projects/kairos"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">

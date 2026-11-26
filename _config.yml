@@ -6,13 +6,14 @@ favicon: true
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: light
 
-url: "https://giovipeg.github.io/"
+url: "https://giovipeg.github.io"
 
 plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 platforms:
   - name: GitHub
@@ -21,7 +22,7 @@ platforms:
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/giovanni-pegoraro
-  - name: Projects
+  - name: Personal projects
     icon: <i class="fa-solid fa-file-code"></i>
     link: ./projects
   - name: CV
